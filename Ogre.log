@@ -1,126 +1,93 @@
-18:01:19: Creating resource group General
-18:01:19: Creating resource group Internal
-18:01:19: Creating resource group Autodetect
-18:01:19: SceneManagerFactory for type 'DefaultSceneManager' registered.
-18:01:19: Registering ResourceManager for type Material
-18:01:19: Registering ResourceManager for type Mesh
-18:01:19: Registering ResourceManager for type Skeleton
-18:01:19: MovableObjectFactory for type 'ParticleSystem' registered.
-18:01:19: ArchiveFactory for archive type FileSystem registered.
-18:01:19: ArchiveFactory for archive type Zip registered.
-18:01:19: ArchiveFactory for archive type EmbeddedZip registered.
-18:01:19: DDS codec registering
-18:01:19: FreeImage version: 3.15.4
-18:01:19: This program uses FreeImage, a free, open source image library supporting all common bitmap formats. See http://freeimage.sourceforge.net for details
-18:01:19: Supported formats: bmp,ico,jpg,jif,jpeg,jpe,jng,koa,iff,lbm,mng,pbm,pbm,pcd,pcx,pgm,pgm,png,ppm,ppm,ras,tga,targa,tif,tiff,wap,wbmp,wbm,psd,cut,xbm,xpm,gif,hdr,g3,sgi,exr,j2k,j2c,jp2,pfm,pct,pict,pic,3fr,arw,bay,bmq,cap,cine,cr2,crw,cs1,dc2,dcr,drf,dsc,dng,erf,fff,ia,iiq,k25,kc2,kdc,mdc,mef,mos,mrw,nef,nrw,orf,pef,ptx,pxn,qtk,raf,raw,rdc,rw2,rwl,rwz,sr2,srf,srw,sti
-18:01:19: Registering ResourceManager for type HighLevelGpuProgram
-18:01:19: Registering ResourceManager for type Compositor
-18:01:19: MovableObjectFactory for type 'Entity' registered.
-18:01:19: MovableObjectFactory for type 'Light' registered.
-18:01:19: MovableObjectFactory for type 'BillboardSet' registered.
-18:01:19: MovableObjectFactory for type 'ManualObject' registered.
-18:01:19: MovableObjectFactory for type 'BillboardChain' registered.
-18:01:19: MovableObjectFactory for type 'RibbonTrail' registered.
-18:01:19: Loading library /home/erasme/workspace/ogreSourceHg_build/lib/RenderSystem_GL
-18:01:19: Installing plugin: GL RenderSystem
-18:01:19: OpenGL Rendering Subsystem created.
-18:01:19: Plugin successfully installed
-18:01:19: Loading library /home/erasme/workspace/ogreSourceHg_build/lib/Plugin_ParticleFX
-18:01:19: Installing plugin: ParticleFX
-18:01:19: Particle Emitter Type 'Point' registered
-18:01:19: Particle Emitter Type 'Box' registered
-18:01:19: Particle Emitter Type 'Ellipsoid' registered
-18:01:19: Particle Emitter Type 'Cylinder' registered
-18:01:19: Particle Emitter Type 'Ring' registered
-18:01:19: Particle Emitter Type 'HollowEllipsoid' registered
-18:01:19: Particle Affector Type 'LinearForce' registered
-18:01:19: Particle Affector Type 'ColourFader' registered
-18:01:19: Particle Affector Type 'ColourFader2' registered
-18:01:19: Particle Affector Type 'ColourImage' registered
-18:01:19: Particle Affector Type 'ColourInterpolator' registered
-18:01:19: Particle Affector Type 'Scaler' registered
-18:01:19: Particle Affector Type 'Rotator' registered
-18:01:19: Particle Affector Type 'DirectionRandomiser' registered
-18:01:19: Particle Affector Type 'DeflectorPlane' registered
-18:01:19: Plugin successfully installed
-18:01:19: Loading library /home/erasme/workspace/ogreSourceHg_build/lib/Plugin_BSPSceneManager
-18:01:19: Installing plugin: BSP Scene Manager
-18:01:19: Plugin successfully installed
-18:01:19: Loading library /home/erasme/workspace/ogreSourceHg_build/lib/Plugin_CgProgramManager
-18:01:19: Installing plugin: Cg Program Manager
-18:01:19: Plugin successfully installed
-18:01:19: Loading library /home/erasme/workspace/ogreSourceHg_build/lib/Plugin_PCZSceneManager
-18:01:19: Installing plugin: Portal Connected Zone Scene Manager
-18:01:19: PCZone Factory Type 'ZoneType_Default' registered
-18:01:19: Plugin successfully installed
-18:01:19: Loading library /home/erasme/workspace/ogreSourceHg_build/lib/Plugin_OctreeZone
-18:01:19: Installing plugin: Octree Zone Factory
-18:01:19: Plugin successfully installed
-18:01:19: Loading library /home/erasme/workspace/ogreSourceHg_build/lib/Plugin_OctreeSceneManager
-18:01:19: Installing plugin: Octree Scene Manager
-18:01:19: Plugin successfully installed
-18:01:19: *-*-* OGRE Initialising
-18:01:19: *-*-* Version 1.9.0 (Ghadamon)
-18:01:19: Creating resource group Essential
-18:01:19: Added resource location '/home/erasme/workspace/ogreSourceHg/Samples/Media/thumbnails' of type 'FileSystem' to resource group 'Essential'
-18:01:19: Added resource location '/home/erasme/workspace/ogreSourceHg/Samples/Media/packs/SdkTrays.zip' of type 'Zip' to resource group 'Essential'
-18:01:19: Added resource location '/home/erasme/workspace/ogreSourceHg/Samples/Media/packs/profiler.zip' of type 'Zip' to resource group 'Essential'
-18:01:19: Added resource location '/home/erasme/workspace/ogreSourceHg/Samples/Media' of type 'FileSystem' to resource group 'General'
-18:01:19: Creating resource group Popular
-18:01:19: Added resource location '/home/erasme/workspace/ogreSourceHg/Samples/Media/fonts' of type 'FileSystem' to resource group 'Popular'
-18:01:19: Added resource location '/home/erasme/workspace/ogreSourceHg/Samples/Media/materials/programs' of type 'FileSystem' to resource group 'Popular'
-18:01:19: Added resource location '/home/erasme/workspace/ogreSourceHg/Samples/Media/materials/scripts' of type 'FileSystem' to resource group 'Popular'
-18:01:19: Added resource location '/home/erasme/workspace/ogreSourceHg/Samples/Media/materials/textures' of type 'FileSystem' to resource group 'Popular'
-18:01:19: Added resource location '/home/erasme/workspace/ogreSourceHg/Samples/Media/materials/textures/nvidia' of type 'FileSystem' to resource group 'Popular'
-18:01:19: Added resource location '/home/erasme/workspace/ogreSourceHg/Samples/Media/models' of type 'FileSystem' to resource group 'Popular'
-18:01:19: Added resource location '/home/erasme/workspace/ogreSourceHg/Samples/Media/particle' of type 'FileSystem' to resource group 'Popular'
-18:01:19: Added resource location '/home/erasme/workspace/ogreSourceHg/Samples/Media/DeferredShadingMedia' of type 'FileSystem' to resource group 'Popular'
-18:01:19: Added resource location '/home/erasme/workspace/ogreSourceHg/Samples/Media/PCZAppMedia' of type 'FileSystem' to resource group 'Popular'
-18:01:19: Added resource location '/home/erasme/workspace/ogreSourceHg/Samples/Media/RTShaderLib' of type 'FileSystem' to resource group 'Popular'
-18:01:19: Added resource location '/home/erasme/workspace/ogreSourceHg/Samples/Media/RTShaderLib/materials' of type 'FileSystem' to resource group 'Popular'
-18:01:19: Added resource location '/home/erasme/workspace/ogreSourceHg/Samples/Media/materials/scripts/SSAO' of type 'FileSystem' to resource group 'Popular'
-18:01:19: Added resource location '/home/erasme/workspace/ogreSourceHg/Samples/Media/materials/textures/SSAO' of type 'FileSystem' to resource group 'Popular'
-18:01:19: Added resource location '/home/erasme/workspace/ogreSourceHg/Samples/Media/materials/programs/Cg' of type 'FileSystem' to resource group 'Popular'
-18:01:19: Added resource location '/home/erasme/workspace/ogreSourceHg/Samples/Media/materials/programs/GLSL' of type 'FileSystem' to resource group 'Popular'
-18:01:19: Added resource location '/home/erasme/workspace/ogreSourceHg/Samples/Media/volumeTerrain' of type 'FileSystem' to resource group 'Popular'
-18:01:19: Added resource location '/home/erasme/workspace/ogreSourceHg/Samples/Media/packs/cubemap.zip' of type 'Zip' to resource group 'Popular'
-18:01:19: Added resource location '/home/erasme/workspace/ogreSourceHg/Samples/Media/packs/cubemapsJS.zip' of type 'Zip' to resource group 'Popular'
-18:01:19: Added resource location '/home/erasme/workspace/ogreSourceHg/Samples/Media/packs/dragon.zip' of type 'Zip' to resource group 'Popular'
-18:01:19: Added resource location '/home/erasme/workspace/ogreSourceHg/Samples/Media/packs/fresneldemo.zip' of type 'Zip' to resource group 'Popular'
-18:01:19: Added resource location '/home/erasme/workspace/ogreSourceHg/Samples/Media/packs/ogretestmap.zip' of type 'Zip' to resource group 'Popular'
-18:01:19: Added resource location '/home/erasme/workspace/ogreSourceHg/Samples/Media/packs/ogredance.zip' of type 'Zip' to resource group 'Popular'
-18:01:19: Added resource location '/home/erasme/workspace/ogreSourceHg/Samples/Media/packs/Sinbad.zip' of type 'Zip' to resource group 'Popular'
-18:01:19: Added resource location '/home/erasme/workspace/ogreSourceHg/Samples/Media/packs/skybox.zip' of type 'Zip' to resource group 'Popular'
-18:01:19: Added resource location '/home/erasme/workspace/ogreSourceHg/Samples/Media/volumeTerrain/volumeTerrainBig.zip' of type 'Zip' to resource group 'Popular'
-18:01:19: Creating resource group Tests
-18:01:19: Added resource location '/home/erasme/workspace/ogreSourceHg/Tests/Media' of type 'FileSystem' to resource group 'Tests'
-18:01:21: *-*-* OGRE Shutdown
-18:01:21: Unregistering ResourceManager for type Compositor
-18:01:21: Unregistering ResourceManager for type Skeleton
-18:01:21: Unregistering ResourceManager for type Mesh
-18:01:21: Unregistering ResourceManager for type HighLevelGpuProgram
-18:01:21: Uninstalling plugin: Octree Scene Manager
-18:01:21: Plugin successfully uninstalled
-18:01:21: Unloading library /home/erasme/workspace/ogreSourceHg_build/lib/Plugin_OctreeSceneManager
-18:01:21: Uninstalling plugin: Octree Zone Factory
-18:01:21: Plugin successfully uninstalled
-18:01:21: Unloading library /home/erasme/workspace/ogreSourceHg_build/lib/Plugin_OctreeZone
-18:01:21: Uninstalling plugin: Portal Connected Zone Scene Manager
-18:01:21: Plugin successfully uninstalled
-18:01:21: Unloading library /home/erasme/workspace/ogreSourceHg_build/lib/Plugin_PCZSceneManager
-18:01:21: Uninstalling plugin: Cg Program Manager
-18:01:21: Plugin successfully uninstalled
-18:01:21: Unloading library /home/erasme/workspace/ogreSourceHg_build/lib/Plugin_CgProgramManager
-18:01:21: Uninstalling plugin: BSP Scene Manager
-18:01:21: Plugin successfully uninstalled
-18:01:21: Unloading library /home/erasme/workspace/ogreSourceHg_build/lib/Plugin_BSPSceneManager
-18:01:21: Uninstalling plugin: ParticleFX
-18:01:21: Plugin successfully uninstalled
-18:01:21: Unloading library /home/erasme/workspace/ogreSourceHg_build/lib/Plugin_ParticleFX
-18:01:21: Uninstalling plugin: GL RenderSystem
-18:01:21: ******************************
+19:49:58: Creating resource group General
+19:49:58: Creating resource group Internal
+19:49:58: Creating resource group Autodetect
+19:49:58: SceneManagerFactory for type 'DefaultSceneManager' registered.
+19:49:58: Registering ResourceManager for type Material
+19:49:58: Registering ResourceManager for type Mesh
+19:49:58: Registering ResourceManager for type Skeleton
+19:49:58: MovableObjectFactory for type 'ParticleSystem' registered.
+19:49:58: ArchiveFactory for archive type FileSystem registered.
+19:49:58: ArchiveFactory for archive type Zip registered.
+19:49:58: ArchiveFactory for archive type EmbeddedZip registered.
+19:49:58: DDS codec registering
+19:49:58: FreeImage version: 3.15.4
+19:49:58: This program uses FreeImage, a free, open source image library supporting all common bitmap formats. See http://freeimage.sourceforge.net for details
+19:49:58: Supported formats: bmp,ico,jpg,jif,jpeg,jpe,jng,koa,iff,lbm,mng,pbm,pbm,pcd,pcx,pgm,pgm,png,ppm,ppm,ras,tga,targa,tif,tiff,wap,wbmp,wbm,psd,cut,xbm,xpm,gif,hdr,g3,sgi,exr,j2k,j2c,jp2,pfm,pct,pict,pic,3fr,arw,bay,bmq,cap,cine,cr2,crw,cs1,dc2,dcr,drf,dsc,dng,erf,fff,ia,iiq,k25,kc2,kdc,mdc,mef,mos,mrw,nef,nrw,orf,pef,ptx,pxn,qtk,raf,raw,rdc,rw2,rwl,rwz,sr2,srf,srw,sti
+19:49:58: Registering ResourceManager for type HighLevelGpuProgram
+19:49:58: Registering ResourceManager for type Compositor
+19:49:58: MovableObjectFactory for type 'Entity' registered.
+19:49:58: MovableObjectFactory for type 'Light' registered.
+19:49:58: MovableObjectFactory for type 'BillboardSet' registered.
+19:49:58: MovableObjectFactory for type 'ManualObject' registered.
+19:49:58: MovableObjectFactory for type 'BillboardChain' registered.
+19:49:58: MovableObjectFactory for type 'RibbonTrail' registered.
+19:49:58: Loading library /home/erasme/workspace/ogreSourceHg_build/lib/RenderSystem_GL
+19:49:58: Installing plugin: GL RenderSystem
+19:49:58: OpenGL Rendering Subsystem created.
+19:49:59: Plugin successfully installed
+19:49:59: Loading library /home/erasme/workspace/ogreSourceHg_build/lib/Plugin_ParticleFX
+19:49:59: Installing plugin: ParticleFX
+19:49:59: Particle Emitter Type 'Point' registered
+19:49:59: Particle Emitter Type 'Box' registered
+19:49:59: Particle Emitter Type 'Ellipsoid' registered
+19:49:59: Particle Emitter Type 'Cylinder' registered
+19:49:59: Particle Emitter Type 'Ring' registered
+19:49:59: Particle Emitter Type 'HollowEllipsoid' registered
+19:49:59: Particle Affector Type 'LinearForce' registered
+19:49:59: Particle Affector Type 'ColourFader' registered
+19:49:59: Particle Affector Type 'ColourFader2' registered
+19:49:59: Particle Affector Type 'ColourImage' registered
+19:49:59: Particle Affector Type 'ColourInterpolator' registered
+19:49:59: Particle Affector Type 'Scaler' registered
+19:49:59: Particle Affector Type 'Rotator' registered
+19:49:59: Particle Affector Type 'DirectionRandomiser' registered
+19:49:59: Particle Affector Type 'DeflectorPlane' registered
+19:49:59: Plugin successfully installed
+19:49:59: Loading library /home/erasme/workspace/ogreSourceHg_build/lib/Plugin_BSPSceneManager
+19:49:59: Installing plugin: BSP Scene Manager
+19:49:59: Plugin successfully installed
+19:49:59: Loading library /home/erasme/workspace/ogreSourceHg_build/lib/Plugin_CgProgramManager
+19:49:59: Installing plugin: Cg Program Manager
+19:49:59: Plugin successfully installed
+19:49:59: Loading library /home/erasme/workspace/ogreSourceHg_build/lib/Plugin_PCZSceneManager
+19:49:59: Installing plugin: Portal Connected Zone Scene Manager
+19:49:59: PCZone Factory Type 'ZoneType_Default' registered
+19:49:59: Plugin successfully installed
+19:49:59: Loading library /home/erasme/workspace/ogreSourceHg_build/lib/Plugin_OctreeZone
+19:49:59: Installing plugin: Octree Zone Factory
+19:49:59: Plugin successfully installed
+19:49:59: Loading library /home/erasme/workspace/ogreSourceHg_build/lib/Plugin_OctreeSceneManager
+19:49:59: Installing plugin: Octree Scene Manager
+19:49:59: Plugin successfully installed
+19:49:59: *-*-* OGRE Initialising
+19:49:59: *-*-* Version 1.9.0 (Ghadamon)
+19:49:59: *-*-* OGRE Shutdown
+19:49:59: Unregistering ResourceManager for type Compositor
+19:49:59: Unregistering ResourceManager for type Skeleton
+19:49:59: Unregistering ResourceManager for type Mesh
+19:49:59: Unregistering ResourceManager for type HighLevelGpuProgram
+19:49:59: Uninstalling plugin: Octree Scene Manager
+19:49:59: Plugin successfully uninstalled
+19:49:59: Unloading library /home/erasme/workspace/ogreSourceHg_build/lib/Plugin_OctreeSceneManager
+19:49:59: Uninstalling plugin: Octree Zone Factory
+19:49:59: Plugin successfully uninstalled
+19:49:59: Unloading library /home/erasme/workspace/ogreSourceHg_build/lib/Plugin_OctreeZone
+19:49:59: Uninstalling plugin: Portal Connected Zone Scene Manager
+19:49:59: Plugin successfully uninstalled
+19:49:59: Unloading library /home/erasme/workspace/ogreSourceHg_build/lib/Plugin_PCZSceneManager
+19:49:59: Uninstalling plugin: Cg Program Manager
+19:49:59: Plugin successfully uninstalled
+19:49:59: Unloading library /home/erasme/workspace/ogreSourceHg_build/lib/Plugin_CgProgramManager
+19:49:59: Uninstalling plugin: BSP Scene Manager
+19:49:59: Plugin successfully uninstalled
+19:49:59: Unloading library /home/erasme/workspace/ogreSourceHg_build/lib/Plugin_BSPSceneManager
+19:49:59: Uninstalling plugin: ParticleFX
+19:49:59: Plugin successfully uninstalled
+19:49:59: Unloading library /home/erasme/workspace/ogreSourceHg_build/lib/Plugin_ParticleFX
+19:49:59: Uninstalling plugin: GL RenderSystem
+19:49:59: ******************************
 *** Stopping GLX Subsystem ***
 ******************************
-18:01:21: Plugin successfully uninstalled
-18:01:21: Unloading library /home/erasme/workspace/ogreSourceHg_build/lib/RenderSystem_GL
-18:01:21: Unregistering ResourceManager for type Material
+19:49:59: Plugin successfully uninstalled
+19:49:59: Unloading library /home/erasme/workspace/ogreSourceHg_build/lib/RenderSystem_GL
+19:49:59: Unregistering ResourceManager for type Material
