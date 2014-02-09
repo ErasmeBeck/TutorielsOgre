@@ -425,8 +425,14 @@
 	<storageModule moduleId="cdtBuildSystem" version="4.0.0">
 		<project id="TutorielsOgre.cdt.managedbuild.target.gnu.exe.748026038" name="Executable" projectType="cdt.managedbuild.target.gnu.exe"/>
 	</storageModule>
+	<storageModule moduleId="org.eclipse.cdt.core.LanguageSettingsProviders"/>
+	<storageModule moduleId="refreshScope"/>
+	<storageModule moduleId="org.eclipse.cdt.make.core.buildtargets"/>
 	<storageModule moduleId="scannerConfiguration">
 		<autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId=""/>
+		<scannerConfigBuildInfo instanceId="cdt.managedbuild.config.gnu.exe.debug.729124166.1350457591;cdt.managedbuild.config.gnu.exe.debug.729124166.1350457591.;cdt.managedbuild.tool.gnu.c.compiler.exe.debug.1300783507;cdt.managedbuild.tool.gnu.c.compiler.input.629314287">
+			<autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId=""/>
+		</scannerConfigBuildInfo>
 		<scannerConfigBuildInfo instanceId="cdt.managedbuild.config.gnu.exe.release.711511138;cdt.managedbuild.config.gnu.exe.release.711511138.;cdt.managedbuild.tool.gnu.cpp.compiler.exe.release.1842579568;cdt.managedbuild.tool.gnu.cpp.compiler.input.581905739">
 			<autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId=""/>
 		</scannerConfigBuildInfo>
@@ -439,8 +445,8 @@
 		<scannerConfigBuildInfo instanceId="cdt.managedbuild.config.gnu.exe.release.711511138;cdt.managedbuild.config.gnu.exe.release.711511138.;cdt.managedbuild.tool.gnu.c.compiler.exe.release.684142525;cdt.managedbuild.tool.gnu.c.compiler.input.1148867807">
 			<autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId=""/>
 		</scannerConfigBuildInfo>
+		<scannerConfigBuildInfo instanceId="cdt.managedbuild.config.gnu.exe.debug.729124166.1350457591;cdt.managedbuild.config.gnu.exe.debug.729124166.1350457591.;cdt.managedbuild.tool.gnu.cpp.compiler.exe.debug.1061980010;cdt.managedbuild.tool.gnu.cpp.compiler.input.2004878223">
+			<autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId=""/>
+		</scannerConfigBuildInfo>
 	</storageModule>
-	<storageModule moduleId="org.eclipse.cdt.core.LanguageSettingsProviders"/>
-	<storageModule moduleId="refreshScope"/>
-	<storageModule moduleId="org.eclipse.cdt.make.core.buildtargets"/>
 </cproject>
